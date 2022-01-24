@@ -1,0 +1,60 @@
+:root {
+    --navbarBkgd: #2d6a4f;
+    --navbarText: #52b788;
+    --pageBkgd: #b7e4c7;
+    --footerBkgd: #2d6a4f;
+    --footerText: #52b788;
+}
+body {
+    background-color: var(--pageBkgd);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+    height: 100vh;
+}
+.card {
+    background-color: var(--pageBkgd);
+    border: none !important;
+}
+.footer {
+    background-color: var(--footerBkgd);
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.footer a {
+    color: var(--footerText);
+    text-decoration: none;
+}
+.footer a:hover {
+    color: white;
+}
+main {
+    align-items: center;
+    background-color: var(--pageBkgd);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 24px;
+    padding-top: 30vh;
+}
+.navbar {
+    background-color: var(--navbarBkgd);
+    color: var(--navbarText);
+}
+.navbar a {
+    color: var(--navbarText);
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: white;
+}
+#navhome {
+    padding-left: 20px;
+}
+#navscores {
+    padding-right: 20px;
+}
